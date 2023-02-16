@@ -140,7 +140,10 @@
         justify-content: flex-start;
     }
     .bilarTextContainer{
-        margin-top: -150px;
+        margin-top: -190px;
+    }
+    .bilarHeader{
+        font-size: 14px;
     }
     
     
