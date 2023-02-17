@@ -145,6 +145,13 @@
     .bilarHeader{
         font-size: 14px;
     }
+    .bilBild{
+        width: 100vw;
+    }
+    .video{
+        width: 100vh;
+        height: auto;
+    }
     
     
 }
