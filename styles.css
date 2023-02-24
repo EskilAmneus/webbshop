@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .top-bar{
     display: flex;
@@ -16,7 +20,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 50px;
+    margin-right: 50px;
     height: 100px;
     width: 100px;
     background-color:white;
@@ -25,15 +29,14 @@
 
 .menyText{
     display: flex;
-    margin-right: 10px;
-    margin-top: -6px;
+    justify-content: flex-end;
+    margin-left: 10px;
 }
 
 .menyknappContainer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 70px;
     width: 10%;
     height: 13vh;
 }
@@ -55,15 +58,6 @@
     flex-direction: column;
 }
 
-
-
-.page3Container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-
-}
 
 .bilarHeader{
     color: black;
@@ -167,6 +161,8 @@
 
 
 
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -194,14 +190,27 @@
   }
   
   .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
     font-size: 36px;
-    margin-left: 50px;
+
   }
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+
+  #menyKnapp {
+    background-color:#111;
+    color:#818181;
+    border-width: 0px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+
+  #menyKnapp:hover{
+    color: #f1f1f1;
   }
