@@ -127,7 +127,6 @@
     flex-direction: column;
     margin-right: 120px;
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 5px white;
     width: 50%;
     height: 100%;
@@ -142,6 +141,13 @@
 
 #text{
     margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#text1{
+    margin-top: 20px;
+    color: #363532;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #bilNamn{
@@ -152,5 +158,5 @@
     font-size: 50px;
     color: white;
     text-shadow: 2px 2px 5px black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
 }
