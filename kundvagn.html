@@ -1,13 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="kundvagn.css">
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html" id="start">Start</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">McQueen</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Våra Bilar</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Porsche 911 GT3 RS</span>
+                    <a href="911.html"><img class="shop-item-image" src="bilder och videor/porsche 911 640x500.png"></a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2500000 kr</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Lägg i Kundvagn</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Porsche Taycan</span>
+                    <a href="taycan.html"><img class="shop-item-image" src="bilder och videor/porsche Taycan 640x500.png"></a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">1000000 kr</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Lägg i Kundvagn</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Nissan GT-R</span>
+                    <a href="gtr.html"><img class="shop-item-image" src="bilder och videor/Nissan GT-R 640x500.png"></a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">1150000 kr</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Lägg i Kundvagn</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ford Mustang</span>
+                    <a href="mustang.html"><img class="shop-item-image" src="bilder och videor/Ford Mustang 640x500.png"></a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">640000 kr</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Lägg i Kundvagn</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Ferrari LeFerrari</span>
+                    <a href="laFerrari.html"><img class="shop-item-image" src="bilder och videor/LaFerrari 640x500.png"></a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">10800000 kr</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Lägg i Kundvagn</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">BMW F30</span>
+                    <a href="f3.html"><img class="shop-item-image" src="bilder och videor/BMW F3 640x500.png"></a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">300000 kr</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Lägg i Kundvagn</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Kundvagn</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Bil</span>
+                <span class="cart-price cart-header cart-column">Pris</span>
+                <span class="cart-quantity cart-header cart-column">Antal</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Totalt</strong>
+                <span class="cart-total-price">0 kr</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Beställ</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">McQueen</h3>
+                <ul class="nav footer-nav">
+                    
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
