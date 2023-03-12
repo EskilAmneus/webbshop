@@ -6,9 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McQueen.com/gtr/se</title>
     <link rel="stylesheet" href="köp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <div class ="topBar">
+        <div class="nav container">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <i class='bx bx-x' id="close-cart"></i>
+                <h2 class="cart-title">Din varukorg</h2>
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Totalt</div>
+                    <div class="total-price">0 kr</div> 
+                </div> 
+                <button type="button" class="btn-buy">Köp</button>
+            
+            </div>
+        </div>
         <div class = "loggaRuta">
             <a href="index.html"><div class="logga"> <img src="./bilder-och-videor/logo-color.png" alt="./bilder-och-videor/logo-color.png" ></div></a>
         </div>
@@ -16,12 +34,11 @@
 
     <div class="contianer1">
         <div class ="containerTop">
-            <div class = "bilBild"><img src="bilder-och-videor/Nissan-GT-R-1280x720.png" alt="bilder-och-videor/Nissan-GT-R-1280x720.png"></div>
-            
+            <img src="bilder-och-videor/Nissan-GT-R-1280x720.png" alt="" class="product-img bilBild">
             
         </div>
     
-        <div class="bilNamn"><h1 id="bilNamn">Nissan GT-R</h1></div> 
+        <span class="bilNamn product-title"><h1 id="bilNamn">Nissan GT-R</h1></span> 
     </div>
     
 
@@ -50,8 +67,8 @@
             <h1 id="köpRubrik">Beställ</h1>
             <div class="beställ">
                 <div class="contianerColumn">
-                    <p id="text2">1,150,000.00 kr</p>
-                    <a href="kundvagn.html"> <button class="kundvagnKnapp">Gå till butik</button></a>
+                    <span> <p class="price" id="text2">1150000 kr</p> </span>
+                    <i><button class="bx bx-shopping-bag add-cart kundvagnKnapp" type="button">Lägg i kundvagn</button></i>
                 </div>
                 
             </div>
@@ -60,6 +77,6 @@
     </div>
     
     
-    
+    <script src="kundvagn.js"></script>
 </body>
 </html>

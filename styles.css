@@ -42,6 +42,13 @@ html{
     margin-left: 50px;
 }
 
+.kundvagn{
+    scale: 10%;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
 .videoContainer{
     display: flex;
     justify-content: center;
@@ -146,6 +153,9 @@ html{
     .video{
         width: 100vh;
         height: 110%;
+    }
+    .menyknappContainer{
+        margin-left: 80px;
     }
     
     
